@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+
+<!-- ===================== BASIC FORM ===================== -->
+<h2>BASIC FORM</h2>
+<form>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your password">
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- ===================== FORM WITH LABELS ===================== -->
+<h2>FORM WITH LABELS</h2>
+<form>
+    <label>Name:</label>
+    <input type="text"><br><br>
+
+    <label>Email:</label>
+    <input type="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password"><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<!-- ===================== RADIO BUTTONS ===================== -->
+<h2>RADIO BUTTONS</h2>
+<form>
+    <p>Choose Gender:</p>
+
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- ===================== CHECKBOXES ===================== -->
+<h2>CHECKBOXES</h2>
+<form>
+    <p>Select your skills:</p>
+
+    <input type="checkbox" name="skill1"> HTML<br>
+    <input type="checkbox" name="skill2"> CSS<br>
+    <input type="checkbox" name="skill3"> JavaScript<br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- ===================== DROPDOWN (SELECT) ===================== -->
+<h2>DROPDOWN MENU</h2>
+<form>
+    <label>Choose Country:</label>
+    <select>
+        <option>Palestine</option>
+        <option>Egypt</option>
+        <option>Jordan</option>
+        <option>USA</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- ===================== TEXTAREA ===================== -->
+<h2>TEXTAREA</h2>
+<form>
+    <label>Your Message:</label><br>
+    <textarea rows="5" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<!-- ===================== FILE UPLOAD ===================== -->
+<h2>FILE UPLOAD</h2>
+<form>
+    <label>Upload File:</label>
+    <input type="file"><br><br>
+
+    <input type="submit" value="Upload">
+</form>
+
+<hr>
+
+<!-- ===================== DATE & TIME ===================== -->
+<h2>DATE & TIME INPUTS</h2>
+<form>
+    <label>Date:</label>
+    <input type="date"><br><br>
+
+    <label>Time:</label>
+    <input type="time"><br><br>
+
+    <label>Color:</label>
+    <input type="color"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- ===================== COMPLETE FORM ===================== -->
+<h2>COMPLETE REGISTRATION FORM</h2>
+
+<form>
+    <label>Full Name:</label><br>
+    <input type="text"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="g"> Male
+    <input type="radio" name="g"> Female<br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS
+    <input type="checkbox"> JS<br><br>
+
+    <label>Country:</label><br>
+    <select>
+        <option>Palestine</option>
+        <option>Egypt</option>
+        <option>Jordan</option>
+    </select><br><br>
+
+    <label>Message:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
